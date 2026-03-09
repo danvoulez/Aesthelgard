@@ -1,0 +1,5 @@
+{
+  "name": "App Shell Boilerplate",
+  "description": "A robust, responsive web application shell with a collapsible sidebar and a chat interface.",
+  "requestFramePermissions": []
+}

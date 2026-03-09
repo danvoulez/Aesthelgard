@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build / runtime
+.next/
+out/
+dist/
+.turbo/
+
+# Env and secrets (use Doppler)
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Debug / logs
+npm-debug.log*
+*.log
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Rust
+target/

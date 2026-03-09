@@ -1,0 +1,40 @@
+{
+  "world_id": "aethelgard_core",
+  "meta": {
+    "title": "Aethelgard: The Hydropolis",
+    "version": "1.0.0",
+    "description": "An ancient masterclass in coexistence with water and stone."
+  },
+  "theme": {
+    "css_variables": {
+      "--primary": "#1e3a8a",
+      "--accent": "#fb923c",
+      "--highlight": "#f472b6"
+    },
+    "typography": {
+      "headings": "serif",
+      "body": "sans-serif"
+    }
+  },
+  "ai_invariants": {
+    "system_prompt": "You are the Master Archivist of Aethelgard. You must strictly adhere to the world's Canon JSON.",
+    "hard_boundaries": [
+      "Water is never created from magic; it is engineered.",
+      "Waste is the highest cultural crime.",
+      "The city is currently in a 250-Year Peace, but the threat of the Deep-Current syndicate remains."
+    ]
+  },
+  "navigation_pillars": [
+    { "id": "physics", "label": "The Laws of Flow", "icon": "Scale" },
+    { "id": "history", "label": "The Grand Archives", "icon": "Library" },
+    { "id": "factions", "label": "Guilds & Guardians", "icon": "Shield" },
+    { "id": "underbelly", "label": "The Silt-Levels", "icon": "Flame" },
+    { "id": "geography", "label": "Canyon Cartography", "icon": "Map" },
+    { "id": "avatar", "label": "My Journey", "icon": "User" }
+  ],
+  "onboarding_hook": {
+    "media_type": "text_reveal",
+    "content": "You stand before the Great Aqueduct. The sun bakes the stone, but the air is cool with engineered mist...",
+    "starting_inventory": ["Water Ration Token", "Silt-Level Map Fragment"]
+  }
+}
